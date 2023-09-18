@@ -1,7 +1,7 @@
 class Book:
     def __init__(self, title, page_count):
-        self.title = title
-        self._page_count = None  # Use a private variable for page_count
+        self.title =  title
+        self._page_count = None  
         self.page_count = page_count
 
     @property

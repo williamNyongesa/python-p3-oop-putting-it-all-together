@@ -1,7 +1,7 @@
 class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
-        self._size = None  # Use a private variable for size
+        self._size = None  
         self.size = size
         self.condition = "New"
 
